@@ -1,0 +1,242 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "full_name": "Gunn Goyal",
+      "email": "gunn@gmail.com",
+      "password_hash": "$2a$10$/auty3mhULIVnpiRqNiNkut5SGXFG5yoUvB5oydmGoAghnJUdDDA6",
+      "contact_number": "+91 9375300005",
+      "role": "user",
+      "is_blocked": false,
+      "created_at": "2026-03-13T08:10:59.947Z"
+    },
+    {
+      "id": 2,
+      "full_name": "Armaan Singh",
+      "email": "armaan@gmail.com",
+      "password_hash": "$2a$10$OVjTuLPZUs9cTGcBCUYU5eZDlsB5t0u15BXXYJlaTK0IhkGk6uc8S",
+      "contact_number": "+91 855449528222",
+      "role": "user",
+      "is_blocked": false,
+      "created_at": "2026-03-13T08:03:09.221Z"
+    },
+    {
+      "id": 1,
+      "full_name": "Admin User",
+      "email": "admin@example.com",
+      "password_hash": "$2a$10$euiu2LRoFkL03DTzuJitY.Rjrd0f3LKIabEre7zcOOY4QhGp38F0G",
+      "contact_number": "+1234567890",
+      "role": "admin",
+      "created_at": "2026-03-12T09:26:26.970Z"
+    }
+  ],
+  "tours": [],
+  "treks": [],
+  "restaurants": [],
+  "car_rentals": [],
+  "bookings": [
+    {
+      "id": 14,
+      "user_id": 3,
+      "service_type": "tour",
+      "service_id": 3,
+      "booking_date": "2026-03-20 08:28:36",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:28:36.512Z"
+    },
+    {
+      "id": 13,
+      "user_id": 3,
+      "service_type": "trek",
+      "service_id": 1,
+      "booking_date": "2026-03-20 08:28:09",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:28:09.369Z"
+    },
+    {
+      "id": 12,
+      "user_id": 3,
+      "service_type": "trek",
+      "service_id": 1,
+      "booking_date": "2026-03-20 08:28:08",
+      "status": "pending",
+      "created_at": "2026-03-13T08:28:08.504Z"
+    },
+    {
+      "id": 11,
+      "user_id": 3,
+      "service_type": "tour",
+      "service_id": 3,
+      "booking_date": "2026-03-20 08:28:00",
+      "status": "pending",
+      "created_at": "2026-03-13T08:28:00.796Z"
+    },
+    {
+      "id": 10,
+      "user_id": 3,
+      "service_type": "tour",
+      "service_id": 3,
+      "booking_date": "2026-03-20 08:27:59",
+      "status": "pending",
+      "created_at": "2026-03-13T08:27:59.212Z"
+    },
+    {
+      "id": 9,
+      "user_id": 3,
+      "service_type": "tour",
+      "service_id": 3,
+      "booking_date": "2026-03-20 08:27:57",
+      "status": "pending",
+      "created_at": "2026-03-13T08:27:57.530Z"
+    },
+    {
+      "id": 8,
+      "user_id": 3,
+      "service_type": "tour",
+      "service_id": 3,
+      "booking_date": "2026-03-20 08:27:55",
+      "status": "pending",
+      "created_at": "2026-03-13T08:27:55.571Z"
+    },
+    {
+      "id": 7,
+      "user_id": 3,
+      "service_type": "property",
+      "service_id": 2,
+      "booking_date": "2026-03-20 00:00:00",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:12:06.881Z"
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "service_type": "property",
+      "service_id": 1,
+      "booking_date": "2026-03-20 00:00:00",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:03:32.207Z"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "service_type": "property",
+      "service_id": 1,
+      "booking_date": "2026-03-20 00:00:00",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:03:31.218Z"
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "service_type": "property",
+      "service_id": 1,
+      "booking_date": "2026-03-20 00:00:00",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:03:29.892Z"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "service_type": "property",
+      "service_id": 1,
+      "booking_date": "2026-03-20 00:00:00",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:03:28.860Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "service_type": "property",
+      "service_id": 1,
+      "booking_date": "2026-03-20 00:00:00",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:03:27.487Z"
+    },
+    {
+      "id": 1,
+      "user_id": 2,
+      "service_type": "property",
+      "service_id": 1,
+      "booking_date": "2026-03-20 00:00:00",
+      "status": "confirmed",
+      "created_at": "2026-03-13T08:03:25.237Z"
+    }
+  ],
+  "counters": {
+    "users": 4,
+    "tours": 1,
+    "treks": 1,
+    "restaurants": 1,
+    "car_rentals": 1,
+    "bookings": 15,
+    "properties": 7
+  },
+  "properties": [
+    {
+      "id": 1,
+      "name": "Emerald Cliff Villa",
+      "location": "Bali, Indonesia",
+      "price_per_night": 450,
+      "capacity": 8,
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop",
+      "description": "Perched cliffside villa with panoramic views"
+    },
+    {
+      "id": 2,
+      "name": "Serene Mountain Cottage",
+      "location": "Swiss Alps, Switzerland",
+      "price_per_night": 320,
+      "capacity": 4,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=800&h=600&fit=crop",
+      "description": "Charming alpine cottage retreat"
+    },
+    {
+      "id": 3,
+      "name": "Coastal Haven Villa",
+      "location": "Amalfi Coast, Italy",
+      "price_per_night": 680,
+      "capacity": 10,
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "image_url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
+      "description": "Mediterranean villa with sea views"
+    },
+    {
+      "id": 4,
+      "name": "Forest Hideaway Cottage",
+      "location": "Cotswolds, England",
+      "price_per_night": 195,
+      "capacity": 3,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "image_url": "https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=800&h=600&fit=crop",
+      "description": "Private countryside hideaway"
+    },
+    {
+      "id": 5,
+      "name": "Sunset Bay Villa",
+      "location": "Santorini, Greece",
+      "price_per_night": 520,
+      "capacity": 6,
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "image_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop",
+      "description": "Sunset-facing Greek island villa"
+    },
+    {
+      "id": 6,
+      "name": "Lakeside Timber Lodge",
+      "location": "Lake Como, Italy",
+      "price_per_night": 380,
+      "capacity": 5,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "image_url": "https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=800&h=600&fit=crop",
+      "description": "Lakeside lodge with mountain backdrop"
+    }
+  ]
+}
