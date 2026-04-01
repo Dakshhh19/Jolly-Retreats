@@ -1,0 +1,15 @@
+ALTER TABLE users
+  ADD COLUMN IF NOT EXISTS username VARCHAR(30) NULL AFTER email,
+  ADD COLUMN IF NOT EXISTS security_question VARCHAR(150) NULL AFTER contact_number,
+  ADD COLUMN IF NOT EXISTS security_answer_hash VARCHAR(255) NULL AFTER security_question,
+  ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+
+UPDATE users
+SET username = CONCAT('user_', id)
+WHERE username IS NULL OR username = '';
+
+ALTER TABLE users
+  MODIFY COLUMN username VARCHAR(30) NOT NULL;
+
+ALTER TABLE users
+  ADD CONSTRAINT uq_users_username UNIQUE (username);

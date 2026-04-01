@@ -1,0 +1,20 @@
+[
+  {
+    "id": "admin-001",
+    "fullName": "Admin User",
+    "email": "admin@example.com",
+    "password": "$2a$10$euiu2LRoFkL03DTzuJitY.Rjrd0f3LKIabEre7zcOOY4QhGp38F0G",
+    "contactNumber": "+1234567890",
+    "role": "admin",
+    "createdAt": "2026-03-12T05:01:24.440Z"
+  },
+  {
+    "id": "user-1773292364976-3jo2mrfad",
+    "fullName": "Ansh Jolly",
+    "email": "anshjolly@gmail.com",
+    "password": "$2a$10$XAsPGUxnejsV/sKNMT0oTuYk2eUOX/HV8CGs5IAhc6eLhylOj7SqK",
+    "contactNumber": "+91 9215609420",
+    "role": "user",
+    "createdAt": "2026-03-12T05:12:45.073Z"
+  }
+]
